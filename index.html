@@ -34,8 +34,8 @@
 <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#inicio"><span class="brand-icon">🧠</span><span>Método Infantil<small>Mais foco hoje, grandes conquistas amanhã!</small></span></a><p>Um recurso educativo para apoiar a rotina de aprendizagem em família.</p><small>© <span id="year"></span> Método Infantil. Todos os direitos reservados.</small></div></footer>
 <div class="modal-backdrop" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal"><h2 id="modal-title">Vamos configurar sua compra 🛒</h2><p>O site está pronto visualmente, mas ainda falta conectar o link real do checkout (por exemplo, Kiwify, Cakto ou outra plataforma). Para evitar direcionar seus clientes a um endereço inexistente, substitua <strong>COLE_AQUI_O_LINK_DO_CHECKOUT</strong> no arquivo <code>index.html</code> pelo link de pagamento do seu produto.</p><div class="modal-actions"><button class="btn btn-yellow" id="close-modal">Entendi</button><a class="btn btn-outline" href="#oferta" id="back-offer">Ver oferta</a></div></div></div>
 <script>
-// https://payment.ticto.app/O9AF660C8?pid=AF12ED2C80
-const CHECKOUT_URL = "COLE_AQUI_O_LINK_DO_CHECKOUT";
+//
+const CHECKOUT_URL = "https://payment.ticto.app/O9AF660C8?pid=AF12ED2C80 ";
 document.getElementById('year').textContent = new Date().getFullYear();
 const modal = document.getElementById('checkout-modal');
 document.querySelectorAll('.buy-button').forEach(button => button.addEventListener('click', event => {
