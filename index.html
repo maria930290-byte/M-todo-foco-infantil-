@@ -39,7 +39,7 @@ const CHECKOUT_URL = "https://payment.ticto.app/O9AF660C8?pid=AF12ED2C80 ";
 document.getElementById('year').textContent = new Date().getFullYear();
 const modal = document.getElementById('checkout-modal');
 document.querySelectorAll('.buy-button').forEach(button => button.addEventListener('click', event => {
-  if (CHECKOUT_URL && !CHECKOUT_URL.includes('COLE_AQUI')) { event.preventDefault(); window.location.href = CHECKOUT_URL; }
+  if (CHECKOUT_URL && !CHECKOUT_URL.includes(https:payment.ticto.app/O9AF660C8?pid=AF12ED2C80)) { event.preventDefault(); window.location.href = CHECKOUT_URL; }
   else { event.preventDefault(); modal.classList.add('open'); }
 }));
 document.getElementById('close-modal').addEventListener('click',()=>modal.classList.remove('open'));
